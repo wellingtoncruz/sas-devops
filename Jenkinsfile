@@ -3,8 +3,8 @@ node('docker') {
 
   // Kubernetes cluster info
   def cluster = 'cd'
-  def zone = 'us-central1-f'
-  def project = 'REPLACE_WITH_YOUR_PROJECT_NAME'
+  def zone = 'us-east1-b'
+  def project = 'sas-devops'
 
   // Run tests
   stage 'Go tests'
